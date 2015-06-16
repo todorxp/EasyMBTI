@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="question_0">
+        <item>1</item>
+        <item>1.</item>
+        <item>T</item>
+        <item>Compete</item>
+        <item>F</item>
+        <item>Cooperate</item>
+    </string-array>
+
+    <string-array name="question_1">
+        <item>2</item>
+        <item>2.</item>
+        <item>S</item>
+        <item>Details</item>
+        <item>N</item>
+        <item>Intuition</item>
+    </string-array>
+
+    <string-array name="question_2">
+        <item>3</item>
+        <item>3.</item>
+        <item>J</item>
+        <item>Teach</item>
+        <item>P</item>
+        <item>Facilitate</item>
+    </string-array>
+
+    <string-array name="question_3">
+        <item>4</item>
+        <item>4.</item>
+        <item>I</item>
+        <item>Self</item>
+        <item>E</item>
+        <item>Group</item>
+    </string-array>
+
+    <string-array name="question_4">
+        <item>5</item>
+        <item>5.</item>
+        <item>F</item>
+        <item>Helping</item>
+        <item>T</item>
+        <item>Advancing</item>
+    </string-array>
+    <string-array name="question_5">
+        <item>6</item>
+        <item>6.</item>
+        <item>S</item>
+        <item>Actual</item>
+        <item>N</item>
+        <item>Potential</item>
+    </string-array>
+    <string-array name="question_6">
+        <item>7</item>
+        <item>7.</item>
+        <item>J</item>
+        <item>Plan ahead</item>
+        <item>P</item>
+        <item>Improvise</item>
+    </string-array>
+    <string-array name="question_7">
+        <item>8</item>
+        <item>8.</item>
+        <item>F</item>
+        <item>Sympathize</item>
+        <item>T</item>
+        <item>Strategize</item>
+    </string-array>
+    <string-array name="question_8">
+        <item>9</item>
+        <item>9.</item>
+        <item>N</item>
+        <item>Envision</item>
+        <item>S</item>
+        <item>Enact</item>
+    </string-array>
+    <string-array name="question_9">
+        <item>10</item>
+        <item>10.</item>
+        <item>I</item>
+        <item>One great friend</item>
+        <item>E</item>
+        <item>Many good friends</item>
+    </string-array>
+    <string-array name="question_10">
+        <item>11</item>
+        <item>11.</item>
+        <item>J</item>
+        <item>Direct</item>
+        <item>P</item>
+        <item>Indirect</item>
+    </string-array>
+    <string-array name="question_11">
+        <item>12</item>
+        <item>12.</item>
+        <item>N</item>
+        <item>Theory</item>
+        <item>S</item>
+        <item>Practice</item>
+    </string-array>
+    <string-array name="question_12">
+        <item>13</item>
+        <item>13.</item>
+        <item>T</item>
+        <item>Achievement</item>
+        <item>F</item>
+        <item>Compassion</item>
+    </string-array>
+    <string-array name="question_13">
+        <item>14</item>
+        <item>14.</item>
+        <item>I</item>
+        <item>Inner world</item>
+        <item>E</item>
+        <item>Outer world</item>
+    </string-array>
+    <string-array name="question_14">
+        <item>15</item>
+        <item>15.</item>
+        <item>S</item>
+        <item>Tangible</item>
+        <item>N</item>
+        <item>Abstract</item>
+    </string-array>
+    <string-array name="question_15">
+        <item>16</item>
+        <item>16.</item>
+        <item>F</item>
+        <item>Beautiful</item>
+        <item>T</item>
+        <item>Useful</item>
+    </string-array>
+    <string-array name="question_16">
+        <item>17</item>
+        <item>17.</item>
+        <item>I</item>
+        <item>Anxious in world</item>
+        <item>E</item>
+        <item>At home in world</item>
+    </string-array>
+    <string-array name="question_17">
+        <item>18</item>
+        <item>18.</item>
+        <item>N</item>
+        <item>Idea</item>
+        <item>S</item>
+        <item>Reality</item>
+    </string-array>
+    <string-array name="question_18">
+        <item>19</item>
+        <item>19.</item>
+        <item>E</item>
+        <item>Work with others</item>
+        <item>I</item>
+        <item>Work independently</item>
+    </string-array>
+    <string-array name="question_19">
+        <item>20</item>
+        <item>20.</item>
+        <item>T</item>
+        <item>Utility</item>
+        <item>F</item>
+        <item>Morality</item>
+    </string-array>
+    <string-array name="question_20">
+        <item>21</item>
+        <item>21.</item>
+        <item>I</item>
+        <item>Self-conscious</item>
+        <item>E</item>
+        <item>Unhesitating </item>
+    </string-array>
+
+    <string-array name="question_21">
+        <item>22</item>
+        <item>22.</item>
+        <item>F</item>
+        <item>Emotional</item>
+        <item>T</item>
+        <item>Logical </item>
+    </string-array>
+    <string-array name="question_22">
+        <item>23</item>
+        <item>23.</item>
+        <item>I</item>
+        <item>Alone time</item>
+        <item>E</item>
+        <item>"Out and about"</item>
+    </string-array>
+    <string-array name="question_23">
+        <item>24</item>
+        <item>24.</item>
+        <item>S</item>
+        <item>Doing</item>
+        <item>N</item>
+        <item>Imagining</item>
+    </string-array>
+    <string-array name="question_24">
+        <item>25</item>
+        <item>25.</item>
+        <item>T</item>
+        <item>Optimize</item>
+        <item>F</item>
+        <item>Empathize</item>
+    </string-array>
+    <string-array name="question_25">
+        <item>26</item>
+        <item>26.</item>
+        <item>S</item>
+        <item>Facts</item>
+        <item>N</item>
+        <item>Theory</item>
+    </string-array>
+    <string-array name="question_26">
+        <item>27</item>
+        <item>27.</item>
+        <item>J</item>
+        <item>Standardized</item>
+        <item>P</item>
+        <item>Makeshift</item>
+    </string-array>
+    <string-array name="question_27">
+        <item>28</item>
+        <item>28.</item>
+        <item>S</item>
+        <item>Down to earth</item>
+        <item>N</item>
+        <item>Absent minded</item>
+    </string-array>
+    <string-array name="question_28">
+        <item>29</item>
+        <item>When surrounded by noise or commotion I tend to feel…</item>
+        <item>E</item>
+        <item>Calm, composed, and comfortable</item>
+        <item>I</item>
+        <item>Anxious, overwhelmed, or unsettled</item>
+    </string-array>
+    <string-array name="question_29">
+        <item>30</item>
+        <item>At work or school, others see me as more…</item>
+        <item>P</item>
+        <item>Open, receptive, and casual</item>
+        <item>J</item>
+        <item>Orderly, direct, and serious</item>
+    </string-array>
+
+
+
+</resources>
