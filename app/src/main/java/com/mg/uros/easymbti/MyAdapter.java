@@ -29,30 +29,36 @@ public class MyAdapter extends ArrayAdapter<MBTIQuestion> {
         // Finds MBTIQuestion dataobject at list position
         final MBTIQuestion question = getItem(position);
 
-        questionTextView.setText(question.question);
+        // Connecting views with MBTIQuestion dataobject
 
+        questionTextView.setText(question.question);
         answer1TextView.setText(question.answer1);
         answer1TextView.setBackgroundColor(question.answer1Color);
-
         answer2TextView.setText(question.answer2);
         answer2TextView.setBackgroundColor(question.answer2Color);
 
 
 
+        // List view can't be clicked
         theView.setClickable(true);
-        answer1TextView.setClickable(false);
 
 
         answer1TextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
+
+                Score.Add(question,1);
+
                 answer1TextView.setBackgroundColor(answerPressed);
                 answer2TextView.setBackgroundColor(answerUnPressed);
                 question.answer1Color = answerPressed;
                 question.answer2Color = answerUnPressed;
+                question.answer1Pressed = true;
+                question.answer2Pressed = false;
                 question.isAnswered = true;
 
+             //   Score.CalculateType();
 
 
             }
@@ -61,12 +67,19 @@ public class MyAdapter extends ArrayAdapter<MBTIQuestion> {
             @Override
             public void onClick(View v) {
 
+
+                Score.Add(question,2);
+
+
                 answer1TextView.setBackgroundColor(answerUnPressed);
                 answer2TextView.setBackgroundColor(answerPressed);
                 question.answer1Color = answerUnPressed;
                 question.answer2Color = answerPressed;
+                question.answer2Pressed = true;
+                question.answer1Pressed = false;
                 question.isAnswered = true;
 
+           //     Score.CalculateType();
 
 
             }
@@ -76,6 +89,9 @@ public class MyAdapter extends ArrayAdapter<MBTIQuestion> {
 
         return theView;
     }
+
+
+
 
     public MyAdapter(Context context, MBTIQuestion[] mbtiQuestionArray) {
         super(context,R.layout.row_layout,mbtiQuestionArray);

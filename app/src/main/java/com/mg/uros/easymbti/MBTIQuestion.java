@@ -1,23 +1,23 @@
 package com.mg.uros.easymbti;
 
 
+import java.io.Serializable;
 
-
-public class MBTIQuestion {
+public class MBTIQuestion implements Serializable {
 
     public String questionNumber;
     public String question;
-    public String answer1Type;
+    public int answer1Type;
     public int answer1Color;
     public String answer1;
-    public String answer2Type;
+    public int answer2Type;
     public int answer2Color;
     public String answer2;
     public Boolean isAnswered;
     public Boolean answer1Pressed;
     public Boolean answer2Pressed;
 
-    public MBTIQuestion(String questionNumber,String question,String answer1Type,int answer1Color,Boolean answer1Pressed, String answer1, String answer2Type,int answer2Color,Boolean answer2Pressed, String answer2,Boolean isAnswered){
+    public MBTIQuestion(String questionNumber,String question,int answer1Type,int answer1Color,Boolean answer1Pressed, String answer1, int answer2Type,int answer2Color,Boolean answer2Pressed, String answer2,Boolean isAnswered){
 
         this.questionNumber = questionNumber;
         this.question = question;

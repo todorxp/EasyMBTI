@@ -3,13 +3,15 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="welcome_text">This free online personality test, along with our eBooks and articles, can help you determine your four-letter personality type (e.g., INFJ, INFP, INTJ, INTP). For each of the 36 items below, select the letter associated with the word or phrase that best captures your historical personality preferences.\nTry not to overthink your responses. If you are unsure of how to respond, you can leave the item unmarked. For the purposes of scoring the test, you’ll need to tally your total responses for each letter (a-h).</string>
+    <string name="welcome_text">This free online personality test, along with our eBooks and articles, can help you determine your four-letter personality type (e.g., INFJ, INFP, INTJ, INTP). For each of the 36 items below, select the letter associated with the word or phrase that best captures your historical personality preferences.\nTry not to overthink your responses. If you are unsure of how to respond, you can leave the item unmarked.</string>
     <string name="first_question">Nije</string>
-    <string name="firstshit">1.</string>
-    <string name="question_number">1</string>
-    <string name="question_text">question</string>
     <string name="title_activity_welcome">EasyMBTI</string>
     <string name="take_test_button_text">Take Test</string>
+    <string name="title_activity_personality_description">PersonalityDescription</string>
+    <string name="find_type_button_text">Find type</string>
+    <string name="your_personality_type_is">Your personality type is :</string>
+    <string name="find_type_menu_button_text">Find Type</string>
+    <string name="back_to_questions_button_text">Back to questions</string>
 
 
 </resources>

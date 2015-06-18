@@ -3,7 +3,9 @@ package com.mg.uros.easymbti;
 import android.content.res.Resources;
 import android.graphics.Color;
 
-public class MBTIQuestionArray {
+import java.io.Serializable;
+
+public class MBTIQuestionArray implements Serializable {
 
 
     private Resources res = EasyMBTI.getContext().getResources();
@@ -31,11 +33,11 @@ public class MBTIQuestionArray {
             mbtiQuestionArray[i] =  new MBTIQuestion(
                     res.getStringArray(resourceId)[0],
                     res.getStringArray(resourceId)[1],
-                    res.getStringArray(resourceId)[2],
+                    Integer.parseInt(res.getStringArray(resourceId)[2]),
                     Color.TRANSPARENT,
                     false,
                     res.getStringArray(resourceId)[3],
-                    res.getStringArray(resourceId)[4],
+                    Integer.parseInt(res.getStringArray(resourceId)[4]),
                     Color.TRANSPARENT,
                     false,
                     res.getStringArray(resourceId)[5],
