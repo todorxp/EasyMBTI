@@ -1,6 +1,9 @@
 package com.mg.uros.easymbti;
 
 import android.content.Intent;
+import android.content.res.Resources;
+import android.content.res.TypedArray;
+import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -12,6 +15,8 @@ import android.widget.TextView;
 
 public class PersonalityDescription extends ActionBarActivity {
 
+    private Resources res = EasyMBTI.getContext().getResources();
+    private String MBTIType;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,20 +25,37 @@ public class PersonalityDescription extends ActionBarActivity {
 
         Intent activityThatCalled = getIntent();
 
-
-
-        String MBTIType = activityThatCalled.getStringExtra("Type");
-
-        Log.v("Result", "MBTIType  is " + MBTIType);
+        MBTIType = activityThatCalled.getStringExtra("Type");
 
         TextView MBTITypeTextView = (TextView) findViewById(R.id.MBTITypeText);
 
         MBTITypeTextView.setText(MBTIType);
 
+       // TextView longText = (TextView) findViewById(R.id.type_description_long_text);
+        //  longText.setText(types.getString(mbtiCode));
 
 
+
+
+     //   Log.v("ENFJ", fix);
 
     }
+
+    /*
+    private String findTypeDecsriptionText(String MBTIType)
+    {
+        String txt;
+        TypedArray types = res.obtainTypedArray(R.array.PersonalityTypes);
+
+        if (MBTIType.equals("ESFJ"))
+        {
+
+             txt = types.getString(0);
+        }
+
+        return txt;
+    }
+    */
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -60,5 +82,20 @@ public class PersonalityDescription extends ActionBarActivity {
     public void onBackToQuestions(View view) {
 
         finish();
+    }
+
+    public void onTypeDescriptionClick(View view) {
+
+        TypedArray types = res.obtainTypedArray(R.array.PersonalityTypes);
+
+        int mbtiCode = Score.FindPersonalityCode(MBTIType);
+
+        String typeURL = types.getString(mbtiCode);
+
+        types.recycle();
+
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(typeURL));
+
+        startActivity(browserIntent);
     }
 }

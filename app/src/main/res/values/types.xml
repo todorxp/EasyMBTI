@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="ESFJ" type="string">http://personalityjunkie.com/esfj-type-profile/</item>
+    <item name="ESFP" type="string">http://personalityjunkie.com/esfp-type-profile/</item>
+    <item name="ESTJ" type="string">http://personalityjunkie.com/estj-type-profile/</item>
+    <item name="ESTP" type="string">http://personalityjunkie.com/estp-type-profile/</item>
+    <item name="ENFJ" type="string">http://personalityjunkie.com/enfj-type-profile/</item>
+    <item name="ENFP" type="string">http://personalityjunkie.com/enfp-type-profile/</item>
+    <item name="ENTJ" type="string">http://personalityjunkie.com/entj-type-profile/</item>
+    <item name="ENTP" type="string">http://personalityjunkie.com/entp-type-profile/</item>
+
+
+    <item name="ISFJ" type="string">http://personalityjunkie.com/isfj-type-profile/</item>
+    <item name="ISFP" type="string">http://personalityjunkie.com/isfp-type-profile/</item>
+    <item name="ISTJ" type="string">http://personalityjunkie.com/istj-type-profile/</item>
+    <item name="ISTP" type="string">http://personalityjunkie.com/istp-type-profile/</item>
+    <item name="INFJ" type="string">http://personalityjunkie.com/infj-type-profile/</item>
+    <item name="INFP" type="string">http://personalityjunkie.com/infp-type-profile/</item>
+    <item name="INTJ" type="string">http://personalityjunkie.com/intj-type-profile/</item>
+    <item name="INTP" type="string">http://personalityjunkie.com/intp-type-profile/</item>
+
+
+
+
+
+    <integer-array name="PersonalityTypes">
+        <item>@string/ESFJ</item>
+        <item>@string/ESFP</item>
+        <item>@string/ESTJ</item>
+        <item>@string/ESTP</item>
+        <item>@string/ENFJ</item>
+        <item>@string/ENFP</item>
+        <item>@string/ENTJ</item>
+        <item>@string/ENTP</item>
+
+        <item>@string/ISFJ</item>
+        <item>@string/ISFP</item>
+        <item>@string/ISTJ</item>
+        <item>@string/ISTP</item>
+        <item>@string/INFJ</item>
+        <item>@string/INFP</item>
+        <item>@string/INTJ</item>
+        <item>@string/INTP</item>
+    </integer-array>
+
+</resources>

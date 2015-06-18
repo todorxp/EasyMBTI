@@ -159,6 +159,77 @@ public class Score {
 
 
     }
+    static int FindPersonalityCode(String MBTI)
+    {
+        int code = 0;
+        if (MBTI.equals("ESFJ"))
+        {
+            code = 0;
+        }
+        else if (MBTI.equals("ESFP"))
+        {
+            code = 1;
+        }
+        else if (MBTI.equals("ESTJ"))
+        {
+            code = 2;
+        }
+        else if (MBTI.equals("ESTP"))
+        {
+            code = 3;
+        }
+        else if (MBTI.equals("ENFJ"))
+        {
+            code = 4;
+        }
+        else if (MBTI.equals("ENFP"))
+        {
+            code = 5;
+        }
+        else if (MBTI.equals("ENTJ"))
+        {
+            code = 6;
+        }
+        else if (MBTI.equals("ENTP"))
+        {
+            code = 7;
+        }
+        else if (MBTI.equals("ISFJ"))
+        {
+            code = 8;
+        }
+        else if (MBTI.equals("ISFP"))
+        {
+            code = 9;
+        }
+        else if (MBTI.equals("ISTJ"))
+        {
+            code = 10;
+        }
+        else if (MBTI.equals("ISTP"))
+        {
+            code = 11;
+        }
+        else if (MBTI.equals("INFJ"))
+        {
+            code = 12;
+        }
+        else if (MBTI.equals("INFP"))
+        {
+            code = 13;
+        }
+        else if (MBTI.equals("INTJ"))
+        {
+            code = 14;
+        }
+        else if (MBTI.equals("INTP"))
+        {
+            code = 15;
+        }
+
+        return  code;
+    }
+
 }
 
 
